@@ -238,6 +238,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
 html {
   font-size: 62.5%;
+  font-weight: 700;
 }
 :root {
   --grayish-blue: hsl(237, 18%, 59%);

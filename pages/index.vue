@@ -54,7 +54,7 @@ export default {
     const anoActual = new Date().getFullYear();
     const mesActual = new Date().getMonth();
     const diaActual = new Date().getDate();
-    if (mesActual === 11 && diaActual > 25) {
+    if (mesActual === 11 && diaActual >= 25) {
       this.fechaObjetivo = new Date(`12/25/${anoActual + 1} 12:00 AM`);
     } else {
       this.fechaObjetivo = new Date(`12/25/${anoActual} 12:00 AM`);
